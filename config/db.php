@@ -11,8 +11,8 @@
  * DB_USER: user for your database. the user needs to have rights for SELECT, UPDATE, DELETE and INSERT.
  * DB_PASS: the password of the above user
  * 
- * I just put my own details in. Having the root user in a file seems
- * like a bad idea. I may change this in the final version. --cm
+ * I just put my own details in. Having the root user in a file seemed
+ * like a bad idea, so I changed this in the final version. --cm
  */
 define("DB_HOST", "127.0.0.1");
 define("DB_NAME", "gigmate");
