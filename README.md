@@ -1,5 +1,5 @@
-This is a course project for NCIRL, HDCOMP/Cybersec by Carl Mohn
-the code is adapted by me, based on the PHP login script mentioned below.
+This is a course project for NCIRL, HDCOMP/Cybersec by Carl Mohn.
+The code is adapted by me, based on the PHP login script mentioned below.
 Only the registration part and session handling is borrowed, the rest is my work.
 //Carl
 
