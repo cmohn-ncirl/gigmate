@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-Nov-2017, 21:51:48
+    Author     : Cal
+*/
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    margin: 20px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+h1 {
+    color:blue;
+}
+p {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: black;
+}
+textarea {
+    resize: none;
+}
+#addstuff {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    /*border-collapse: separate;*/
+    border: 0;
+    padding-right: 10px;
+}
+#addstuff tr:hover {
+    background-color: #ddd;
+}
+
+#viewstuff th, td, tr {
+    padding-left: 10px;
+    border-collapse: collapse;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+/*    border: 1px black solid;*/
+}
+#viewstuff {
+    width: 50%;
+}
+
+#viewstuff th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: blue;
+    color: white;
+}
+#viewstuff tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
