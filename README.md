@@ -5,9 +5,12 @@ Only the registration part and session handling is borrowed, the rest is my work
 
 INSTALLATION
 - Install your favourite OS platform, I used Ubuntu 17.10 server LAMP.
-- The folder Gigmate should go in your webdoc folder on your webserver
+- Create a folder called gigmate in your webdoc folder on your webserver
+and stick all these files into it, keeping the structure.
+
 - I included .htaccess files for directory access limitation - these files are looking
 for a user account named "gigman".
+
 - I've set a static IP address on my server, and this is reflected in the Apache config file.
 
 - Create the user "gigman" on your server, and follow the instructions here: 
