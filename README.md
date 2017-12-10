@@ -1,6 +1,25 @@
+INTRODUCTION
 This is a course project for NCIRL, HDCOMP/Cybersec by Carl Mohn.
 The code is adapted by me, based on the PHP login script mentioned below.
 Only the registration part and session handling is borrowed, the rest is my work.
+
+INSTALLATION
+- Install your favourite OS platform, I used Ubuntu 17.10 server LAMP.
+- The folder Gigmate should go in your webdoc folder on your webserver
+- I included .htaccess files for directory access limitation - these files are looking
+for a user account named "gigman".
+- I've set a static IP address on my server, and this is reflected in the Apache config file.
+
+- Create the user "gigman" on your server, and follow the instructions here: 
+https://www.tecmint.com/password-protect-apache-web-directories-using-htaccess/ on how to set a password
+and to protect the file (via chmod). This is the current shared user account for access to the LOGIN page!
+
+- I've added a http redirect to https on my server, so should you for security. This implies
+I also added a self-signed certificate. How-to: https://websiteforstudents.com/self-signed-certificates-ubuntu-17-04-17-10/
+
+- Note the username in the config/db.php file - you need to add your own user to your MySQL db and set its password.
+
+No support, no warranty... ;)
 //Carl
 
 ---ORIGINAL README.MD-------------
