@@ -8,14 +8,15 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>
-        <title>View Contact</title>
+        <title>Update Contact</title>
     </head>
     <body>
-
+        <h1>GigMate</h1>
+        <?php include 'views/navigationbar.php' ?>
         <!--    This is the FORM page where the user makes the selection's
-                what EVENT they want to view.-->
+                what CONTACT they want to view.-->
 
-        <form method="post" action="viewcontact.php" name="viewcontactform">
+        <form method="post" action="updatecontact.php" name="updatecontactform">
             <p>Select Contact from the drop-down list below</p>
             <select name = "contact">
                 <option value="">Please select a contact</option>
@@ -41,7 +42,7 @@ and open the template in the editor.
             </select>
             <p></p><p></p><p></p>
 
-            <p><input type="submit" name="viewcontact" value="View Contact" />
+            <p><input type="submit" name="updatecontact" value="Update Contact" />
                 <input type="reset" value="Reset" /></p>
         </form>
     </body>

@@ -312,7 +312,7 @@
                 </tr>
                 </tbody>
             </table>
-            <p><label for="contact_input_otherinfo">Other information</label></p>
+            <p><label for="contact_input_otherinfo">Other information:</label></p>
             <p><textarea name="contact_otherinfo" style="width:400px; height:200px"></textarea></p>
 
             <p><input type="submit" name="addcontact" value="Add Contact" /> 
