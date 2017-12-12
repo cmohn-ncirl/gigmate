@@ -5,6 +5,8 @@ Only the registration part and session handling is borrowed, the rest is my work
 
 INSTALLATION
 - Install your favourite OS platform, I used Ubuntu 17.10 server LAMP.
+If you want to use mine, you can download it from my DropBox folder at https://www.dropbox.com/s/p7pmulyo3hjw3b3/Ubuntu%2017.10_x16136799.ova?dl=0
+
 - Create a folder called gigmate in your webdoc folder on your webserver
 and stick all these files into it, keeping the structure.
 
