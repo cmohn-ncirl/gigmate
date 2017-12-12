@@ -102,7 +102,7 @@ class UpdateContact {
         } elseif (!empty($_POST['contact_firstname']) && !empty($_POST['contact_lastname']) && preg_match('/^[a-z\s\d]{2,100}$/i', $_POST['contact_firstname']) && preg_match('/^[a-z\s\d]{2,100}$/i', $_POST['contact_lastname']) && !empty($_POST['contact_town']) && !empty($_POST['contact_country'])
         ) {
             // create a database connection
-            echo ('Creating a DB connection.....\n');
+            echo ('Creating a DB connection.....');
             $this->db_connection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
             // change character set to utf8 and check it
@@ -129,10 +129,10 @@ class UpdateContact {
                 $ID = "SELECT * FROM contacts WHERE contact_firstname = '" . $contact_firstname . "';";
                 $sql = "UPDATE contacts SET (contact_timestamp = 'contact_timestamp = CURRENT_TIMESTAMP, contact_firstname='" . $contact_firstname . "', contact_lastname='" . $contact_lastname . "', contact_town='" . $contact_town . "', contact_country='" . $contact_country . "', contact_phone='" . $contact_phone . "', contact_email='" . $contact_email . "', contact_otherinfo='" . $contact_otherinfo . ")";
                         
-                $query_new_contact_insert = $this->db_connection->query($sql);
+                $query_contact_update = $this->db_connection->query($sql);
 
                 // if contact has been added successfully
-                if ($query_new_contact_insert) {
+                if ($query_contact_update) {
                     $this->messages[] = "Your Contact has been updated successfully.";
                 } else {
                     $this->errors[] = "Sorry, your contact update failed. Please go back and try again.";
