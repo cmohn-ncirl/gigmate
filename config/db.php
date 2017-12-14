@@ -14,7 +14,7 @@
  * I just put my own details in. Having the root user in a file seemed
  * like a bad idea, so I changed this in the final version. --cm
  */
-define("DB_HOST", "127.0.0.1");
-define("DB_NAME", "gigmate");
-define("DB_USER", "gigmate");
-define("DB_PASS", "gvuRH!6sbVeQ");
+define("DB_HOST", "sql2.freemysqlhosting.net");
+define("DB_NAME", "sql2210691");
+define("DB_USER", "sql2210691");
+define("DB_PASS", "Sateenkaar67890");
