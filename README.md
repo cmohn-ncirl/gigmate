@@ -1,7 +1,8 @@
 INTRODUCTION
 This is a course project for NCIRL, HDCOMP/Cybersec by Carl Mohn.
 The code is adapted by me, based on the PHP login script mentioned below.
-Only the registration part and session handling is borrowed, the rest is my work.
+Only the registration part, including how passwords are hashed, and session handling is borrowed, the rest is my work.
+Looks like Netlify doesn't support PHP, which I why I'm unable to deploy this site there.
 
 INSTALLATION
 - Install your favourite OS platform, I used Ubuntu 17.10 server LAMP.
