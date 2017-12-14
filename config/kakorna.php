@@ -2,7 +2,10 @@
 
 /*
  * I broke this out to a separate file to be included,
- * seems to work nicely. -cm
+ * seems to work nicely. 
+ * A reference on how to work with parameters: 
+ * https://www.w3schools.com/PhP/php_cookies.asp
+ * -cm
  */
 
 session_start();
